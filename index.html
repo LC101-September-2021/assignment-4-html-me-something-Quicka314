@@ -1,8 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
    <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Anthonys first webpage</title>
+     <link rel="stylesheet" href="styles.css">
    </head>
    <body>
-      <!-- Write your HTML in this file! -->
+<!--navigation section-->
+   <nav class="navigation">
+      <div class="navigation__container">
+         <a href="#home" id="navigation__logo">Anthonys First WebPage</a>
+         <div class="navigation__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span> 
+         </div>
+         <ul class="navigation__menu">
+            <li class="navigation__item">
+               <a href="#home" class="navigation__links" id="home-page">Home</a>
+            </li>
+            <li class="navigation__item">
+               <a href="#about" class="navigation__links" id="about-page">About</a>
+            </li>
+            <li class="navigation__item">
+               <a href="page4.html" class="navigation__links" id="foryou-page">For You</a>
+            </li>
+            <li class="navigation__btn">
+               <a href="page5.html" class="button" id="signup">Sign Up</a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+
+   <!--mainpg section-->
+   <div class="mainpg" id="home">
+      <div class="mainpg__container">
+         <h1 class="mainpg__heading">Well Hello, <span>Dont know What Brings You Here </span></h1>
+         <p class="mainpg__description">But Feel Free To Hit The Button Bellow</p>
+         <button class="main__btn"><a href="page3.html">Yes This Button</a></button> 
+      </div>
+   </div>
+
+   <!--About Section-->
+   <div class="main" id="about">
+      <div class="main__container">
+         <div class="main__img--container">
+            <div class="main__img--card"><img src="IMG_1066.JPG" alt="me"></div>
+         </div>
+         <div class="main__content">
+            <h1>Hi My Name Is Anthony Quick</h1>
+            <h2>And Welcom To My First WebPage</h2>
+            <p>Press The About Me Button To Learn More About Me. Dont Worry Its The Right Button This Time........I Think. Maybe</p>
+            <button class="main__btn"><a href="page2.html">About Me</a></button>
+         </div>
+      </div>
+   </div>
    </body>
 </html>
