@@ -79,7 +79,7 @@ body{
     text-decoration: none;
     padding: 10px 20px;
     height: 100%;
-    width: 1o0%;
+    width: 100%;
     border: none;
     outline: none;
     border-radius: 14px;
@@ -391,9 +391,11 @@ background: linear-gradient(to right, #ffc500, #c21500);
 }
 font{
     background: black;
-    align-items: center
+    align-items: center;
     justify-content:center;
     background-size: 100%;
     color: white;
-    font-size:20px;
+    font-size: 20px;
+    margin: 100px;
+    
 }
